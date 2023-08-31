@@ -66,3 +66,21 @@ input{
     cursor: pointer;
     font-size: 15px;
 }
+
+@media (max-width: 480px){
+    .flex-container{
+        flex-direction: column;
+        gap: 50px;
+        padding: 100px 200px 100px 200px;
+    }
+
+    .image{
+        margin-right: 10px;
+        margin-bottom: 30px;
+    }
+
+    .form{
+        margin-right: 10px;
+    }
+
+}
